@@ -2,8 +2,6 @@
 [![Open in Visual Studio Code](https://classroom.github.com/assets/open-in-vscode-718a45dd9cf7e7f842a935f5ebbe5719a5e09af4491e668f4dbf3b35d5cca122.svg)](https://classroom.github.com/online_ide?assignment_repo_id=15138695&assignment_repo_type=AssignmentRepo)
 ## Creative Coding 2: Custom Pixel
 
-Data Mapping: AI Camera
-
 I was immediately inspired by the idea that this could be a sort of IQ test for AI. My initial idea was inspired by an interview featuring Geoffrey Hinton, who spoke about feeding a model training data with 50% error (ie. incorrect, misleading information). I wondered how this might be implemented within this assignment, and what effects it might produce. For instance, if I used dogs as my subject, I wondered what would happen if half of the photos’ masks might feature dogs highlighted and the other half featured other random elements highlighted (and not the dogs). This would require plenty of trial and error - unfortunately, sickness meant that I wasn’t able to use the university computers as much as I would have liked, so I moved on and parked this idea.
 
 My next idea was to purposely use a very vague or general theme. I still liked the idea of conducting an ‘AI IQ test,’ so I decided to collect a range of images where an element is askew or unusual (but there is no visual commonality between them apart from this). Sets of tiles or other tessellated objects (where one tile is misplaced) seemed like particularly good visual examples. I thought that this concept could be shown visually by inverting the pictures’ colours in the area where a misplaced object is identified. 
