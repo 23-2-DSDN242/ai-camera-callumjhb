@@ -16,6 +16,8 @@ I then fed the AI a new set, once again with a mixture of ‘correct’ and ‘i
 
 While I experimented with this, I began working on the code - how the imagery is presented. I was still enamoured by the idea of inverting the selected elements, and found that this effect looked best in greyscale (using HSB with no saturation). I achieved the ‘inversion’ effect using a technique showcased in class, where the mask image is used to conditionally invert the brightness of the source image's pixels. If a pixel in the mask image’s red channel value is greater than 128 (ie. the semantic layer/the mask’s white ‘highlight’), its brightness is inverted and a new colour is created with this new, inverted brightness, which is applied to the source image pixel. If the mask image pixel’s red channel value is not greater than 128, a new colour is created with the same hue and brightness but zero saturation, and this pixel is set to this new colour (ie. the rest of the image is grayscale). This is done 40 horizontal lines at a time until the image’s 1080 pixels are processed. 
 
+I then spent a while considering how I should present my work. To me, my work insofar felt like a narrative - almost a 'hero's journey' where the AI slowly improved its understanding of purposely obscure training data. It made sense, then, to showcase this linear improvement chronologically - from the first output where it could not identify any semantic layer whatsoever, through to its correct identification of my watch. 
+
 
 
 
